@@ -1,5 +1,9 @@
+ 
+<!DOCTYPE html>
+
 <html>
 
+<style>
 :root {
   --container-bg-color: #333;
   --left-bg-color: rgba(223, 39, 39, 0.7);
@@ -145,6 +149,7 @@ h1 {
   }
 }
 
+</style>
 
 <div class="container">
   <div class="split left">
