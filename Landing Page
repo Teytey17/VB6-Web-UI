@@ -1,4 +1,4 @@
-//CSS
+<html>
 
 :root {
   --container-bg-color: #333;
@@ -145,20 +145,19 @@ h1 {
   }
 }
 
-///THIS IS YOUR FREAKING HTML
 
 <div class="container">
   <div class="split left">
-    <h1>The Designer</h1>
+    <h1>LESSON HERE</h1>
     <a href="#" class="button">Read More</a>
   </div>
   <div class="split right">
-    <h1>The Programmer</h1>
+    <h1>GAME HERE</h1>
     <a href="#" class="button">Read More</a>
   </div>
 </div>
 
-////ADDD SHITS SCRIPTS HERE ZYNDLY
+<script>
 
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
@@ -179,3 +178,7 @@ right.addEventListener("mouseenter", () => {
 right.addEventListener("mouseleave", () => {
   container.classList.remove("hover-right");
 });
+
+
+</script>
+</html>
